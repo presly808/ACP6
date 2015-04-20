@@ -1,0 +1,78 @@
+1. Week Topics
+    Algorithms              Algorithm complexity
+        search              Time           Data
+            linear search - O(N)            1
+            binary search - O(logN)         1
+        sort
+            bubble sort    |
+            insertion sort |} O(N^2)        1
+            selection sort |
+
+            merge sort      O(N*logN)       O(N)
+            quick sort      O(N*logN)       1
+
+        Indexing - Data Structures
+                Hashtable, BinaryTree
+        insert  O(1)        O(logN)
+        delete  O(1)        O(logN)
+        find    O(1)        O(logN)
+
+        Collections in java
+
+        http://www.codejava.net/images/articles/javacore/collections/collections%20framework%20overview.png
+        remember all methods in interfaces Collection -> Set,List,Queue; Map
+
+
+        Algo and Data Structures Visualization
+        http://www.cs.usfca.edu/~galles/visualization/
+        http://visualgo.net/
+
+        Algorithm and Data Structure Books:
+        Н.Вирт Алгоритмы и структуры данных
+        Роберт Седжвик, Кевин Уэйн "Алгоритмы на Java"
+        Кормен "Алгоритмы. Построение и анализ"
+        Андерсон, Джеймс А. Дискретная математика и комбинаторика.
+
+1. Implement binary search algorithm
+
+2. Implement Map interface based on hashtable
+                see example (ua.artcode.ds.MyHashMap)
+   Must use: Generics, Exceptions,
+                loadFactor(rehashing)
+                implement Iterator (for keys and values)
+
+             !Your type that you put in map must override (equals, hashCode)
+
+
+3*. Implement BinarySearchTree
+    methods
+    - add
+    - traverse
+    - findMin
+    - findMax
+    - delete
+
+    * tree optimization
+        * rotate right
+        * rotate left
+    * implement iterator
+
+
+Literature
+
+    "Head First Java" - Basics of Java with a lot of pictures and interesting tasks
+    "Head First Design Pattern" - about design patterns
+
+    Next books contains different situations that help to deep understand Java
+    "Philosophy of Java"
+    "Effective Java" - Rules of using of java
+    "OCA/OCP Java SE 7 Programmer I & II Study Guide" - preparing to oracle exams
+
+    Reference books
+
+    "Core Java 2: Volume I–Fundamentals  Cay S. Horstmann
+    "Core Java 2: Volume II—Advanced Features  Cay S. Horstmann
+    Java. The Complete Reference. Herbert Schildt
+
+
+
