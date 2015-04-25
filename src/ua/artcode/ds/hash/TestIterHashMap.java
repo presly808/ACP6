@@ -1,4 +1,4 @@
-package ua.artcode.ds;
+package ua.artcode.ds.hash;
 
 import java.util.HashMap;
 import java.util.Map;

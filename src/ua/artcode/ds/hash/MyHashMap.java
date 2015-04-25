@@ -1,4 +1,4 @@
-package ua.artcode.ds;
+package ua.artcode.ds.hash;
 
 import java.util.Collection;
 import java.util.Map;
@@ -9,23 +9,23 @@ import java.util.Set;
  */
 public class MyHashMap<K,V> implements Map<K,V> {
 
-    private Entry[] mas;
+    private MyEntry<K,V>[] mas;
     private double loadFactor = 0.75;
     private int masSize = 10;
     private int size = 0;
 
     public MyHashMap() {
-        this.mas = (Entry[]) new Object[masSize];
+        this.mas =  new MyEntry[masSize];
     }
 
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return size < 1;
     }
 
     @Override
@@ -46,24 +46,25 @@ public class MyHashMap<K,V> implements Map<K,V> {
     @Override
     public V put(K key, V value) {
         int hash = key.hashCode();
-        int position = hash % masSize;
+        int position = hash < 0 ? (hash * -1) % masSize : hash % masSize;
 
         if(mas[position] == null){
-            mas[position] = new Entry(key,value);
+            mas[position] = new MyEntry<K,V>(key,value);
         } else {
-            Entry iter = mas[position];
+            MyEntry<K,V> iter = mas[position];
             while (iter.next != null){
                 if(iter.key.equals(key)){
-                    V forRet = iter.value;
+                    V forRet = iter.getValue();
                     iter.value = value;
+                    size++;
                     return forRet;
                 }
                 iter = iter.next;
             }
-            iter.next = new Entry(key,value);
+            iter.next = new MyEntry<K,V>(key,value);
         }
 
-
+        size++;
         return null;
     }
 
@@ -97,18 +98,35 @@ public class MyHashMap<K,V> implements Map<K,V> {
         return null;
     }
 
-    private class Entry {
+    private static class MyEntry<K,V> implements Entry<K,V> {
 
         K key;
         V value;
-        Entry next;
+        MyEntry<K,V> next;
 
-        public Entry(K key, V value) {
+        public MyEntry() {
+        }
+
+        public MyEntry(K key, V value) {
             this.key = key;
             this.value = value;
         }
 
 
+        @Override
+        public K getKey() {
+            return key;
+        }
+
+        @Override
+        public V getValue() {
+            return value;
+        }
+
+        @Override
+        public V setValue(V value) {
+            return null;
+        }
     }
 
 
