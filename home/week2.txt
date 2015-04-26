@@ -1,0 +1,71 @@
+1. Tree (BinarySearchTree)
+    find, delete, insert - logN
+
+    recursion do all tasks and try to debug
+    http://codingbat.com/java/Recursion-1
+
+    see visualization of recursion
+    Algo and Data Structures Visualization
+            http://www.cs.usfca.edu/~galles/visualization/
+            http://visualgo.net/
+
+
+    java.io.*;
+
+    class File
+    absolute and relative paths (differences)
+
+    byte Stream (InputStream, OutputStream)
+    char streams (Reader, Writer)
+
+    !!! always close OutputStream and Writer
+
+    design patterns (Decorator, Adapter)
+
+2. Написать собственную реализацию класса Scanner, работающую с символьными потоками.
+                   Создать два конструктора в один передается объект по ссылке Reader, во второй String.
+
+                   Реализовать методы:
+
+   String next() - чтение одного слова в строке
+   int nextInt() - чтение целого числа из строки или InputMismatchException
+   String nextLine() - чтение всей строки
+   boolean hasNext() - определение наличия в потоке данных
+   boolean hasNextInt() - определение наличия в потоке целого int числа
+   useDelimiter(String) - использует разделитель
+   close() - закрытие сканнера, теперь нельзя использовать и NoSuchElementException
+
+
+3. Implement class FileHelper               window analog
+       - show all available commands        help
+       - changeCurrentLocation              cd
+       - find file(dir)                     find
+       - show directoryContent              dir
+       - show file (content)                type
+       - delete file or dir                 del , rd
+       - create dir                         mkdir
+       - create file                        ? )))
+       - show folder structure              tree
+       - copy file                          copy
+       - compare content of files           fc
+
+       * implement commands redirection
+       http://www.microsoft.com/resources/documentation/windows/xp/all/proddocs/en-us/redirection.mspx?mfr=true
+
+       - deepFind (do search in file name and in file content by keyword)
+           * result of search can be written into file
+
+       -* find in file system without recursion
+       -* show content of folder
+          ex.
+           video - 70%
+           audio - 10%
+           document - 5%
+           other - 15%
+
+4. Implement Java Console Commander using class above (FileHelper)
+    use design pattern MVC, see example ua.artcode.kassa.*
+
+
+5*. Do Remote Java Console Commander
+ using class Socket and ServerSocket

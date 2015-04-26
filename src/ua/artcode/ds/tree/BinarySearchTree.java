@@ -18,14 +18,35 @@ public class BinarySearchTree<E> implements ITree<E>{
         this.comparator = comparator;
     }
 
+    private static class MyComparatorWrapper<E> implements Comparator<E>{
+
+        private boolean isComparable;
+        private Comparator<E> treeComparator;
+
+        public MyComparatorWrapper(Comparator<E> treeComparator, boolean isComparable) {
+            this.isComparable = isComparable;
+            this.treeComparator = treeComparator;
+        }
+
+
+
+        @Override
+        public int compare(E o1, E o2) {
+            if(treeComparator != null){
+                return treeComparator.compare(o1,o2);
+            } else if(isComparable) {
+                return ((Comparable)o1).compareTo(o2);
+            }
+
+            return 0;
+        }
+    }
+
     @Override
     public boolean add(E el) {
 
-        if(!(el instanceof Comparable) && comparator == null){
-            throw new UnsupportedOperationException("Element must implement Comparable");
-        }
+        Comparator<E> wrapperComparator = prepareComparator(el);
 
-        Comparable<E> forComapare = (Comparable<E>) el;
 
         if(root == null) {
             root = new TreeNode<>(null, null, null, el);
@@ -34,7 +55,7 @@ public class BinarySearchTree<E> implements ITree<E>{
         } else {
             TreeNode<E> iter = root;
             while(iter != null){
-                int compareResult = forComapare.compareTo(iter.getValue());
+                int compareResult = wrapperComparator.compare(el, iter.getValue());
                 if(compareResult < 0){
                     if(iter.getlChild() == null){
                         iter.setlChild(new TreeNode<E>(null,null,iter,el));
@@ -67,7 +88,35 @@ public class BinarySearchTree<E> implements ITree<E>{
 
     @Override
     public boolean contains(E el) {
-        return false;
+        Comparator<E> wrapperComparator = prepareComparator(el);
+        return find(wrapperComparator,root,el) != null;
+    }
+
+    private Comparator<E> prepareComparator(E el){
+        boolean isComparable = el instanceof Comparable;
+        if(comparator == null && !isComparable){
+            throw new UnsupportedOperationException("Element must implement Comparable");
+        }
+
+        Comparator<E> wrapperComparator =
+                new MyComparatorWrapper<>(comparator, isComparable);
+        return wrapperComparator;
+    }
+
+    private TreeNode find(Comparator<E> comparator, TreeNode<E> curr, E el){
+        if(curr == null){
+            return null;
+        }
+
+        int compareRes = comparator.compare(el,curr.getValue());
+        if(compareRes < 0){
+            return find(comparator,curr.getlChild(),el);
+        } else if(compareRes > 0){
+            return find(comparator,curr.getrChild(),el);
+        } else {
+            return curr;
+        }
+
     }
 
     @Override

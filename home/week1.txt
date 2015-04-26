@@ -36,7 +36,7 @@
 1. Implement binary search algorithm
 
 2. Implement Map interface based on hashtable
-                see example (ua.artcode.ds.MyHashMap)
+                see example (ua.artcode.ds.hash.MyHashMap)
    Must use: Generics, Exceptions,
                 loadFactor(rehashing)
                 implement Iterator (for keys and values)
