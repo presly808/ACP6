@@ -1,0 +1,62 @@
+0 . protocols IP, UDP, TCP
+    classes (Socket, ServerSocket)
+
+    Git
+    vi - it helps you editing files in linux based system
+    use Git Bash only
+
+    Git material
+            https://www.atlassian.com/git/tutorials/
+            http://git-scm.com/book/en/v2 (first 3 Chapters)
+            https://try.github.io/levels/1/challenges/1
+            http://www.ex.ua/79601047
+
+    Multithreading
+
+        Lifecycle of threads
+        synchronized blocks and methods
+        Threads synchronization(wait, notify, notifyAll)
+
+        http://docs.oracle.com/javase/tutorial/essential/concurrency/
+        http://www.periodicooficial.oaxaca.gob.mx/files/2011/05/EXT02-2011-05-19.pdf
+
+
+    all information learn by doing, write notes and draw all steps
+
+    Design Pattern
+        pattern Observer
+
+    class Properties
+
+1. Theoretical material for repeating
+    Git
+        https://www.atlassian.com/git/tutorials/
+        http://git-scm.com/book/en/v2 (first 3 Chapters)
+        https://try.github.io/levels/1/challenges/1
+        http://www.ex.ua/79601047
+    Threads synchronization(wait, notify, notifyAll), synchronized blocks and methods
+    pattern Observer
+
+    class Properties
+
+2. Implement asynchronous chat that allows communication with two and more users  !!!!!Developing chat use Git!!!!!!
+    Must have
+    - (saving history of messages into the file)
+    - read connections setting(port, max users size, list of banned users)
+        from server_settings.properties (see class Properties)
+    - send message using Serialization (ObjectOutputStream, ObjectInputStream)
+    - for better architecture of application see pattern Observer
+    - * write UI based on Swing
+
+
+
+    Methodology of studying new technology
+        **************************************
+            a) Purpose
+            b) Functionality
+            c) Architecture
+                Modules, Component
+                (Static, dynamic)
+                Lifecycle
+            d) Examples
+        **************************************
