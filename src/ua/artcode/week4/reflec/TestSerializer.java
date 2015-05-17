@@ -2,9 +2,6 @@ package ua.artcode.week4.reflec;
 
 import java.util.Date;
 
-/**
- * Created by serhii on 16.05.15.
- */
 public class TestSerializer {
 
     public static final String PATH = "/home/serhii/IdeaProjects/ACP6/temp/man.txt";

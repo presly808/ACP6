@@ -1,8 +1,5 @@
-package ua.artcode.wek4.prop;
+package ua.artcode.week4.prop;
 
-/**
- * Created by serhii on 16.05.15.
- */
 public class GameSettingHolder {
 
     private static final int HEIGHT = 1024;

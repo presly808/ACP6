@@ -1,4 +1,4 @@
-package ua.artcode.wek4.prop;
+package ua.artcode.week4.prop;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
