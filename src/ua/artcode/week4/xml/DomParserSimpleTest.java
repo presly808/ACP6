@@ -40,6 +40,10 @@ public class DomParserSimpleTest {
 
         }
 
+        System.out.println("RESULT");
+        String content = DomParsingUtils.getTextXMLContent(root);
+        System.out.println(content);
+
     }
 
     public static void showXml(Element root){
