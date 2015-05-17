@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<team>
+    <user id="1">
+        <name>Jack</name>
+        <age>24</age>
+        <salary>2300</salary>
+    </user>
+    <user id="2">
+        <name>Kirck</name>
+        <age>30</age>
+        <salary>600</salary>
+    </user>
+</team>

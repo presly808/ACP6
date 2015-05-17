@@ -51,7 +51,7 @@
 
 
     Methodology of studying new technology
-        **************************************
+    **************************************
             a) Purpose
             b) Functionality
             c) Architecture
@@ -59,4 +59,4 @@
                 (Static, dynamic)
                 Lifecycle
             d) Examples
-        **************************************
+    **************************************

@@ -1,0 +1,2 @@
+class=ua.artcode.week4.reflec.Man
+імя=Yuriy
