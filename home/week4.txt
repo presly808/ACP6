@@ -1,0 +1,31 @@
+1. class Properties
+
+ProducerConsumer pattern
+
+XML(DOM structure)
+     Parsing xml -  DOM, SAX
+
+ 2. write own serialization (object -> xml)
+              deserialization (xml -> object)
+
+    use recursion if object has-a reference types
+    use DOM parser
+
+ 3. Find file in file system using threads for faster results
+        file paths which have been found, save into one file results.txt
+
+ 4. Write universal downloader from ex.ua (That helps us download all files from page)
+        1. First input url address of page
+        2. then parse page and find urls like "/load/{idOfFile}" ex. href="/load/124701188"
+        3. Take url adn download file using URL class
+    Use multithreading when download files
+
+ 5*. Try to do load test of chat
+    See how many clients your server can maintains.
+
+ 6*. Download html page with resources(images and additional)
+    See how to save all page google chrome
+    1) save just a text
+    2) save all page
+
+
