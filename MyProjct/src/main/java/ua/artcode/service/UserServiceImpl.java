@@ -5,6 +5,8 @@ import ua.artcode.exception.LoginException;
 import ua.artcode.exception.RegistrarException;
 import ua.artcode.model.User;
 
+import java.util.List;
+
 /**
  * Created by serhii on 30.05.15.
  */
@@ -42,6 +44,9 @@ public class UserServiceImpl implements UserService {
         return found;
     }
 
+    public List<User> getAll() {
+        return userDao.findAll();
+    }
 
 
     public void logout() {
