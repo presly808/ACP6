@@ -1,7 +1,9 @@
 package ua.artcode.kassa.view;
 
+import org.apache.log4j.Logger;
 import ua.artcode.kassa.controller.IKassaController;
 import ua.artcode.kassa.model.Bill;
+import ua.artcode.kassa.model.Kassa;
 
 import java.util.Scanner;
 
@@ -10,6 +12,7 @@ import java.util.Scanner;
  */
 public class KassaView {
 
+    private static final Logger LOGGER = Logger.getLogger(KassaView.class);
     private IKassaController kassaController;
     private Scanner sc = new Scanner(System.in);
 
@@ -18,7 +21,7 @@ public class KassaView {
     }
 
     public void start(){
-
+        LOGGER.info("start view menu");
 
         while(true){
 
@@ -39,9 +42,9 @@ public class KassaView {
                 System.out.println("Input key");
                 String key = sc.next();
                 if(kassaController.open(key)){
-                    System.out.println("Kassa is open");
+                    LOGGER.info("Kassa is open");
                 } else {
-                    System.err.println("wrong key, try again");
+                    LOGGER.warn("wrong key, try again");
                 }
                 break;
 
