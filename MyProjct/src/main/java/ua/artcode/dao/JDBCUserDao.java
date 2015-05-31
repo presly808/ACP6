@@ -1,6 +1,10 @@
 package ua.artcode.dao;
 
+import org.apache.log4j.Logger;
+import ua.artcode.converter.ORConverter;
+import ua.artcode.converter.UserORConverter;
 import ua.artcode.model.User;
+import ua.artcode.utils.ConnectionFactory;
 
 import java.sql.*;
 import java.util.LinkedList;
@@ -11,26 +15,74 @@ import java.util.List;
  */
 public class JDBCUserDao implements UserDao {
 
+    private static final Logger LOG = Logger.getLogger(JDBCUserDao.class);
+    private ORConverter<User> userConverter = new UserORConverter();
 
     public User create(User user) {
 
+        try (Connection connection = ConnectionFactory.getConnection()){
+            PreparedStatement ps = connection.
+                    prepareStatement("INSERT INTO users (fullname,email,pass) VALUES (?,?,?)");
+
+            ps.setString(1, user.getFullName());
+            ps.setString(2, user.getEmail());
+            ps.setString(3, user.getPass());
+
+            ps.execute();
+
+            return findByEmail(user.getEmail());
 
 
-
+        } catch (SQLException e) {
+            LOG.error(e);
+        }
 
         return null;
     }
 
     public User findByEmail(String email) {
+        try (Connection connection = ConnectionFactory.getConnection()){
+            PreparedStatement ps = connection.
+                    prepareStatement("SELECT id,fullname,email FROM users WHERE email=?");
+
+            ps.setString(1, email);
+            ResultSet resultSet = ps.executeQuery();
+
+            return userConverter.convert(resultSet);
+        } catch (SQLException e) {
+            LOG.error(e);
+        }
+
+
         return null;
     }
 
     public User findById(long id) {
+        try (Connection connection = ConnectionFactory.getConnection()){
+            PreparedStatement ps = connection.
+                    prepareStatement("SELECT id,fullname,email FROM users WHERE id=?");
+
+            ps.setLong(1, id);
+            ResultSet resultSet = ps.executeQuery();
+
+            return userConverter.convert(resultSet);
+        } catch (SQLException e) {
+            LOG.error(e);
+        }
         return null;
     }
 
     public void delete(long id) {
+        try (Connection connection = ConnectionFactory.getConnection()){
+            PreparedStatement ps = connection.
+                    prepareStatement("DELETE FROM users WHERE id=?");
 
+            ps.setLong(1, id);
+            ps.executeUpdate();
+
+        } catch (SQLException e) {
+            LOG.error(e);
+        }
     }
 
     public void update(User user) {
@@ -38,31 +90,15 @@ public class JDBCUserDao implements UserDao {
     }
 
     public List<User> findAll() {
-        List<User> users = new LinkedList<User>();
+        List<User> users = null;
 
-        try {
-            Class.forName("com.mysql.jdbc.Driver");
-            Connection connection =
-                    DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/MyProject");
+        try (Connection connection = ConnectionFactory.getConnection()){
 
             Statement statement = connection.createStatement();
             ResultSet resultSet = statement.executeQuery("SELECT id, fullname, email FROM users;");
-
-            while (resultSet.next()){ // row - object => relation -> oop model
-                long id = resultSet.getLong("id");
-                String fullname = resultSet.getString("fullname");
-                String email = resultSet.getString("email");
-                users.add(new User(id,fullname,email, null));
-            }
-
-            connection.close();
-
-
-
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (SQLException e) {
-            e.printStackTrace();
+            return userConverter.convertAll(resultSet);
+        }  catch (SQLException e) {
+            LOG.error(e);
         }
 
         return users;
