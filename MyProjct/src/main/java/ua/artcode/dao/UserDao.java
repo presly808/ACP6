@@ -1,5 +1,6 @@
 package ua.artcode.dao;
 
+import ua.artcode.exception.NoUserFoundException;
 import ua.artcode.model.User;
 
 import java.util.List;

@@ -1,16 +1,23 @@
 package ua.artcode.model;
 
-/**
- * Created by serhii on 30.05.15.
- */
+import javax.persistence.*;
+
+@Entity
+@Table(name = "users")
 public class User {
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+
+    @Column(name = "full_name", length = 30)
     private String fullName;
+
+    @Column(name = "email", nullable = false, unique = true)
     private String email;
+
+    @Column(nullable = false)
     private String pass;
-
-
 
     public User() {
     }

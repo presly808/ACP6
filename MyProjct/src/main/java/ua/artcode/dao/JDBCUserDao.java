@@ -10,9 +10,7 @@ import java.sql.*;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Created by serhii on 30.05.15.
- */
+
 public class JDBCUserDao implements UserDao {
 
     private static final Logger LOG = Logger.getLogger(JDBCUserDao.class);
