@@ -13,6 +13,7 @@
         <!--mapping classes-->
 
         <class>ua.artcode.model.User</class>
+        <class>ua.artcode.model.UserPost</class>
 
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />

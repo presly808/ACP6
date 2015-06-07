@@ -1,14 +1,13 @@
 package ua.artcode.model;
 
 import javax.persistence.*;
+import java.util.LinkedList;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
-public class User {
+public class User extends GeneratedIdentifierEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
 
     @Column(name = "full_name", length = 30)
     private String fullName;
@@ -19,12 +18,20 @@ public class User {
     @Column(nullable = false)
     private String pass;
 
+    @OneToMany(mappedBy = "owner",
+            cascade = {CascadeType.PERSIST},
+            fetch = FetchType.LAZY)
+    private List<UserPost> postList = new LinkedList<>();
+
+    @Enumerated(EnumType.ORDINAL)
+    private PostType postType;
+
     public User() {
     }
 
     public User(long id, String fullName,
                 String email, String pass) {
-        this.id = id;
+        setId(id);
         this.fullName = fullName;
         this.email = email;
         this.pass = pass;
@@ -35,14 +42,6 @@ public class User {
         this.fullName = fullName;
         this.email = email;
         this.pass = pass;
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public String getFullName() {
@@ -69,10 +68,26 @@ public class User {
         this.pass = pass;
     }
 
+    public List<UserPost> getPostList() {
+        return postList;
+    }
+
+    public void setPostList(List<UserPost> postList) {
+        this.postList = postList;
+    }
+
+    public PostType getPostType() {
+        return postType;
+    }
+
+    public void setPostType(PostType postType) {
+        this.postType = postType;
+    }
+
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
+                "id=" + getId() +
                 ", fullName='" + fullName + '\'' +
                 '}';
     }
