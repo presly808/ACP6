@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="serviceB" class="ua.artcode.week8.ioc.di.ServiceBImpl" scope="singleton"/>
+
+    <bean id="serviceA" class="ua.artcode.week8.ioc.di.ServiceAImpl"/>
+
+    <bean id="testSaleman" class="ua.artcode.kassa.model.Salesman" scope="prototype">
+        <constructor-arg name="id" value="234"/>
+        <constructor-arg name="name" value="Oleg"/>
+    </bean>
+
+    <bean id="testSaleman2" class="ua.artcode.kassa.model.Salesman" scope="prototype">
+        <property name="id" value="testId"/>
+        <property name="name" value="testName"/>
+    </bean>
+
+
+    <bean id="client" class="ua.artcode.week8.ioc.di.ClientLogic">
+        <constructor-arg name="service" ref="serviceB"/>
+    </bean>
+
+</beans>
