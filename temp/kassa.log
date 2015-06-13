@@ -1,0 +1,412 @@
+2015-05-23 12:07:47 INFO  KassaView:24 - start view menu
+2015-05-23 12:07:50 WARN  KassaView:47 - wrong key, try again
+2015-06-06 13:18:48 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-06 13:18:49 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-06 13:18:49 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-06 13:18:49 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-06 13:18:50 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-06 13:18:50 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-06 13:18:50 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-06 13:18:50 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-06 13:18:50 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-06 13:18:50 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-06 13:18:50 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-06 13:18:50 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-06 13:18:51 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-06 13:18:51 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-06 13:18:51 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-06 13:18:51 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-06 13:18:51 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, id, email]
+2015-06-06 13:18:51 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-06 13:18:51 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-06 13:18:51 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-06 13:41:00 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-06 13:41:00 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-06 13:41:00 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-06 13:41:00 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-06 13:41:01 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-06 13:41:01 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-06 13:41:01 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-06 13:41:01 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-06 13:41:01 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-06 13:41:02 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-06 13:41:02 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-06 13:41:02 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-06 13:41:02 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-06 13:41:02 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-06 13:41:02 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-06 13:41:02 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-06 13:41:02 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, id, email]
+2015-06-06 13:41:02 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-06 13:41:02 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-06 13:41:02 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:12:11 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:12:11 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:12:11 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:12:12 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:12:13 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:12:13 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:12:13 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:12:13 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:12:13 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:12:14 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:12:14 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:12:14 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:12:15 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:12:15 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:12:15 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:12:15 INFO  DatabaseMetaData:146 - HHH000262: Table not found: posts
+2015-06-07 12:12:15 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:12:15 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, id, email]
+2015-06-07 12:12:15 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:12:15 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:12:15 INFO  DatabaseMetaData:146 - HHH000262: Table not found: posts
+2015-06-07 12:12:15 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:19:30 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:19:30 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:19:30 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:19:30 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:19:31 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:19:31 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:19:31 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:19:31 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:19:31 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:19:32 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:19:32 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:19:32 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:19:33 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:19:33 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:19:33 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:19:33 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:19:33 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:19:33 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:19:33 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:19:33 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:19:33 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:19:33 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:19:33 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:19:33 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:21:11 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:21:11 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:21:11 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:21:11 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:21:11 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:21:11 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:21:11 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:21:11 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:21:11 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:21:12 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:21:12 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:21:12 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:21:13 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:21:13 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:21:13 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:21:13 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:21:13 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:21:13 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:21:13 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:21:13 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:21:13 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:21:13 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:21:13 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:21:13 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:21:35 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:21:35 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:21:35 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:21:35 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:21:36 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:21:36 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:21:36 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:21:36 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:21:36 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:21:37 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:21:37 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:21:37 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:21:37 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:21:37 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:21:37 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:21:37 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:21:37 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:21:37 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:21:37 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:21:37 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:21:37 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:21:37 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:21:37 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:21:37 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:23:09 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:23:09 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:23:09 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:23:09 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:23:10 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:23:10 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:23:10 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:23:10 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:23:10 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:23:11 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:23:11 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:23:11 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:23:12 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:23:12 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:23:12 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:23:12 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:23:12 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:23:12 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:23:12 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:23:12 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:23:12 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:23:12 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:23:12 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:23:12 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:23:12 WARN  SqlExceptionHelper:145 - SQL Error: 1062, SQLState: 23000
+2015-06-07 12:23:12 ERROR SqlExceptionHelper:147 - Duplicate entry 'sdfsd' for key 'UK_016b2f138d2846cfbc07763ffb9'
+2015-06-07 12:23:44 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:23:44 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:23:44 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:23:44 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:23:45 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:23:45 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:23:45 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:23:45 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:23:45 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:23:45 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:23:45 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:23:45 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:23:46 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:23:46 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:23:46 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:23:46 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:23:46 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:23:46 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:23:46 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:23:46 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:23:46 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:23:46 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:23:46 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:23:46 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:24:32 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:24:32 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:24:32 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:24:32 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:24:33 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:24:33 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:24:33 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:24:33 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:24:33 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:24:34 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:24:34 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:24:34 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:24:34 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:24:34 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:24:34 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:24:34 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:24:34 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:24:34 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:24:34 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:24:34 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:24:34 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:24:34 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:24:34 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:24:34 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:49:40 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:49:40 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:49:40 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:49:40 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:49:41 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:49:41 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:49:41 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:49:41 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:49:41 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:49:42 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:49:42 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:49:42 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:49:43 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:49:43 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:49:43 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:49:43 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:49:43 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:49:43 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:49:43 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:49:43 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:49:43 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:49:43 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:49:43 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:49:43 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:50:36 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:50:36 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:50:36 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:50:36 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:50:37 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:50:37 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:50:37 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:50:37 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:50:37 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:50:38 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:50:38 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:50:38 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:50:39 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:50:39 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:50:39 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:50:39 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:50:39 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:50:39 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:50:39 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:50:39 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:50:39 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:50:39 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:50:39 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:50:39 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:54:48 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:54:48 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:54:48 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:54:48 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:54:49 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:54:49 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:54:49 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:54:49 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:54:49 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:54:50 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:54:50 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:54:50 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:54:50 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:54:50 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:54:50 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:54:50 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:54:50 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:54:50 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:54:50 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:54:50 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:54:50 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:54:50 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:54:50 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:54:50 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 12:55:03 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 12:55:03 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 12:55:03 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 12:55:03 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 12:55:04 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 12:55:04 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 12:55:04 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 12:55:04 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 12:55:04 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 12:55:05 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 12:55:05 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 12:55:05 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 12:55:05 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 12:55:05 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 12:55:05 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 12:55:05 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 12:55:05 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 12:55:05 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 12:55:05 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 12:55:05 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 12:55:05 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 12:55:05 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 12:55:05 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 12:55:05 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 13:00:07 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 13:00:07 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 13:00:07 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 13:00:07 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 13:00:08 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 13:00:08 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 13:00:08 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 13:00:08 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 13:00:08 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 13:00:09 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 13:00:09 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 13:00:09 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 13:00:09 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 13:00:09 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 13:00:09 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 13:00:09 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 13:00:09 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 13:00:09 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 13:00:09 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 13:00:09 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 13:00:09 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 13:00:09 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 13:00:09 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 13:00:09 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 13:01:29 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 13:01:29 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 13:01:29 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 13:01:29 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 13:01:30 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 13:01:30 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 13:01:30 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 13:01:30 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 13:01:30 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 13:01:30 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 13:01:30 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 13:01:30 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 13:01:31 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 13:01:31 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 13:01:31 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 13:01:31 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 13:01:31 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 13:01:31 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 13:01:31 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 13:01:31 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 13:01:31 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 13:01:31 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 13:01:31 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 13:01:31 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-07 13:02:14 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-07 13:02:14 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-07 13:02:14 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-07 13:02:14 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-07 13:02:15 INFO  DriverManagerConnectionProviderImpl:98 - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+2015-06-07 13:02:15 INFO  DriverManagerConnectionProviderImpl:134 - HHH000115: Hibernate connection pool size: 1
+2015-06-07 13:02:15 INFO  DriverManagerConnectionProviderImpl:137 - HHH000006: Autocommit mode: true
+2015-06-07 13:02:15 INFO  DriverManagerConnectionProviderImpl:151 - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/ACP6]
+2015-06-07 13:02:15 INFO  DriverManagerConnectionProviderImpl:156 - HHH000046: Connection properties: {user=root, password=****, autocommit=true, release_mode=auto}
+2015-06-07 13:02:16 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-07 13:02:16 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-07 13:02:16 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-07 13:02:16 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-07 13:02:16 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-07 13:02:16 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-07 13:02:16 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-07 13:02:16 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-07 13:02:16 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-07 13:02:16 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-07 13:02:16 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-07 13:02:16 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-07 13:02:16 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-07 13:02:16 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-07 13:02:16 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
+2015-06-13 13:21:58 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@66cd51c3: startup date [Sat Jun 13 13:21:58 EEST 2015]; root of context hierarchy
+2015-06-13 13:21:58 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [week8/app-context.xml]
+2015-06-13 13:23:53 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@66cd51c3: startup date [Sat Jun 13 13:23:53 EEST 2015]; root of context hierarchy
+2015-06-13 13:23:53 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [week8/app-context.xml]
+2015-06-13 13:24:16 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@66cd51c3: startup date [Sat Jun 13 13:24:16 EEST 2015]; root of context hierarchy
+2015-06-13 13:24:17 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [week8/app-context.xml]
+2015-06-13 14:04:22 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@726f3b58: startup date [Sat Jun 13 14:04:22 EEST 2015]; root of context hierarchy
+2015-06-13 14:04:22 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-context.xml]
+2015-06-13 14:04:24 INFO  PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2015-06-13 14:04:24 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-06-13 14:04:24 INFO  LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'my_unit'
+2015-06-13 14:04:25 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-13 14:04:25 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-13 14:04:25 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-13 14:04:25 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-13 14:04:25 INFO  Ejb3Configuration:528 - HHH000204: Processing PersistenceUnitInfo [
+	name: my_unit
+	...]
+2015-06-13 14:04:25 INFO  ConnectionProviderInitiator:188 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2015-06-13 14:04:27 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-13 14:04:27 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-13 14:04:28 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-13 14:04:28 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-13 14:04:28 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-13 14:04:28 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-13 14:04:29 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-13 14:04:29 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-13 14:04:29 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-13 14:04:29 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-13 14:04:29 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-13 14:04:29 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-13 14:04:29 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-13 14:04:29 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-13 14:04:29 INFO  SchemaUpdate:242 - HHH000232: Schema update complete
