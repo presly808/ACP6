@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by serhii on 30.05.15.
  */
-public interface UserDao {
+public interface UserDao extends CrudDao<User>{
 
     User create(User user);
 
