@@ -46,6 +46,9 @@ public class HibernateUserDao implements UserDao {
 
         List<User> users = query.getResultList();
 
+        if(users.isEmpty()){
+            return null;
+        }
 
         return users.get(0);
     }
