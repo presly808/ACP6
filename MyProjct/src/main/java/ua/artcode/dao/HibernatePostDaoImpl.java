@@ -13,6 +13,9 @@ public class HibernatePostDaoImpl implements PostDao {
 
     private EntityManagerFactory factory;
 
+    public HibernatePostDaoImpl() {
+    }
+
     public HibernatePostDaoImpl(EntityManagerFactory factory) {
         this.factory = factory;
     }
@@ -56,5 +59,9 @@ public class HibernatePostDaoImpl implements PostDao {
                 .setFirstResult(0)
                 .setMaxResults(10)
                 .getResultList();
+    }
+
+    public void setFactory(EntityManagerFactory factory) {
+        this.factory = factory;
     }
 }

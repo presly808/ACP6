@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jee="http://www.springframework.org/schema/jee"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/jee
+        http://www.springframework.org/schema/jee/spring-jee.xsd">
+
+    <context:property-placeholder location="classpath:app.properties"/>
+
+    <bean id="userDao" class="ua.artcode.dao.HibernateUserDao">
+        <constructor-arg name="factory" ref="entityManagerFactory"/>
+    </bean>
+
+    <bean id="postDao" class="ua.artcode.dao.HibernatePostDaoImpl">
+        <property name="factory" ref="entityManagerFactory"/>
+    </bean>
+
+    <bean id="serviceUser" class="ua.artcode.service.UserServiceImpl">
+        <constructor-arg name="userDao" ref="userDao"/>
+    </bean>
+
+    <bean id="userView" class="ua.artcode.view.ConsoleUserView">
+        <constructor-arg name="userService" ref="serviceUser"/>
+    </bean>
+
+
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="url" value="${db.url}"/>
+        <property name="driverClassName" value="${db.driver}"/>
+        <property name="username" value="${db.user}"/>
+        <property name="password" value="${db.pass}"/>
+    </bean>
+    <bean id="jpaDialect" class="org.springframework.orm.jpa.vendor.HibernateJpaDialect"/>
+
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="persistenceXmlLocation" value="classpath:META-INF/persistence.xml"/>
+        <property name="persistenceUnitName" value="my_unit"/>
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
+        </property>
+        <property name="dataSource" ref="dataSource"/>
+        <property name="jpaDialect" ref="jpaDialect"/>
+    </bean>
+
+    <!--<bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor"/>-->
+
+</beans>

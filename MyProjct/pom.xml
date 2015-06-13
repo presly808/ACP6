@@ -13,6 +13,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <hibernate-core.version>4.2.1.Final</hibernate-core.version>
+    <spring.version>4.1.4.RELEASE</spring.version>
     <junit.version>4.11</junit.version>
     <mysql-connector-java.version>5.1.35</mysql-connector-java.version>
     <log4j.version>1.2.17</log4j.version>
@@ -51,6 +52,27 @@
       <version>${hibernate-core.version}</version>
     </dependency>
 
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-core</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-beans</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-orm</artifactId>
+      <version>${spring.version}</version>
+    </dependency>
 
   </dependencies>
 
