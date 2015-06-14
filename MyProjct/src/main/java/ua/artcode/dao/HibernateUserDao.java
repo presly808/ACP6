@@ -1,19 +1,23 @@
 package ua.artcode.dao;
 
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import ua.artcode.exception.NoUserFoundException;
 import ua.artcode.model.User;
 
 import javax.persistence.*;
 import java.util.List;
 
-/**
- * Created by serhii on 06.06.15.
- */
+@Repository
 public class HibernateUserDao implements UserDao {
 
     private static final Logger LOG = Logger.getLogger(HibernateUserDao.class);
+    @Autowired
     private EntityManagerFactory factory;
+
+    public HibernateUserDao() {
+    }
 
     public HibernateUserDao(EntityManagerFactory factory) {
         this.factory = factory;

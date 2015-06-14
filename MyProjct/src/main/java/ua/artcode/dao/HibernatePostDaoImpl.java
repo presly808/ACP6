@@ -1,16 +1,17 @@
 package ua.artcode.dao;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 import ua.artcode.model.UserPost;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import java.util.List;
 
-/**
- * Created by serhii on 07.06.15.
- */
+@Repository
 public class HibernatePostDaoImpl implements PostDao {
 
+    @Autowired
     private EntityManagerFactory factory;
 
     public HibernatePostDaoImpl() {

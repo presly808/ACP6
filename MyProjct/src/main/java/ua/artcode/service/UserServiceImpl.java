@@ -1,5 +1,7 @@
 package ua.artcode.service;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import ua.artcode.dao.UserDao;
 import ua.artcode.exception.LoginException;
 import ua.artcode.exception.RegistrarException;
@@ -7,14 +9,14 @@ import ua.artcode.model.User;
 
 import java.util.List;
 
-/**
- * Created by serhii on 30.05.15.
- */
+@Service
 public class UserServiceImpl implements UserService {
 
+    @Autowired
     private UserDao userDao;
 
-
+    public UserServiceImpl() {
+    }
 
     public UserServiceImpl(UserDao userDao) {
         this.userDao = userDao;

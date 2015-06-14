@@ -1,5 +1,7 @@
 package ua.artcode.view;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import ua.artcode.exception.LoginException;
 import ua.artcode.exception.RegistrarException;
 import ua.artcode.model.User;
@@ -11,14 +13,16 @@ import java.io.InputStreamReader;
 import java.util.List;
 import java.util.Scanner;
 
-/**
- * Created by serhii on 30.05.15.
- */
+@Component
 public class ConsoleUserView implements UserView {
 
     private BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
+    @Autowired
     private UserService userService;
+
+    public ConsoleUserView() {
+    }
 
     public ConsoleUserView(UserService userService) {
         this.userService = userService;

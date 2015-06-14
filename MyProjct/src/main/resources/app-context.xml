@@ -11,24 +11,11 @@
         http://www.springframework.org/schema/jee
         http://www.springframework.org/schema/jee/spring-jee.xsd">
 
+
     <context:property-placeholder location="classpath:app.properties"/>
 
-    <bean id="userDao" class="ua.artcode.dao.HibernateUserDao">
-        <constructor-arg name="factory" ref="entityManagerFactory"/>
-    </bean>
-
-    <bean id="postDao" class="ua.artcode.dao.HibernatePostDaoImpl">
-        <property name="factory" ref="entityManagerFactory"/>
-    </bean>
-
-    <bean id="serviceUser" class="ua.artcode.service.UserServiceImpl">
-        <constructor-arg name="userDao" ref="userDao"/>
-    </bean>
-
-    <bean id="userView" class="ua.artcode.view.ConsoleUserView">
-        <constructor-arg name="userService" ref="serviceUser"/>
-    </bean>
-
+    <context:annotation-config/>
+    <context:component-scan base-package="ua.artcode"/>
 
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="url" value="${db.url}"/>
@@ -47,7 +34,6 @@
         <property name="dataSource" ref="dataSource"/>
         <property name="jpaDialect" ref="jpaDialect"/>
     </bean>
-
     <!--<bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor"/>-->
 
 </beans>
