@@ -13,8 +13,8 @@
 
     <!--<bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor"/>-->
 
-    <bean id="accountService" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
-        <property name="serviceUrl" value="rmi://localhost:1199/UserService"/>
+    <bean id="userService" class="org.springframework.remoting.rmi.RmiProxyFactoryBean">
+        <property name="serviceUrl" value="rmi://192.168.1.45:1199/UserService"/>
         <property name="serviceInterface" value="ua.artcode.service.UserService"/>
     </bean>
 

@@ -16,7 +16,7 @@ public class RunClient
     public static void main( String[] args )
     {
         ApplicationContext applicationContext = new ClassPathXmlApplicationContext("client-context.xml");
-        UserService service = applicationContext.getBean(UserService.class);
+        UserService service = (UserService) applicationContext.getBean("userService");
 
         List<User> userList = service.getAll();
 
