@@ -859,3 +859,33 @@ Caused by: java.net.ConnectException: Connection timed out
 2015-06-14 13:39:37 INFO  RmiServiceExporter:277 - Binding service 'UserService' to RMI registry: RegistryImpl[UnicastServerRef [liveRef: [endpoint:[192.168.1.45:1199](local),objID:[0:0:0, 0]]]]
 2015-06-14 13:39:43 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@726f3b58: startup date [Sun Jun 14 13:39:43 EEST 2015]; root of context hierarchy
 2015-06-14 13:39:43 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [client-context.xml]
+2015-06-21 14:36:59 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6f552ab2: startup date [Sun Jun 21 14:36:59 EEST 2015]; root of context hierarchy
+2015-06-21 14:36:59 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app.context]
+2015-06-21 14:38:52 INFO  ClassPathXmlApplicationContext:510 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@65031ee1: startup date [Sun Jun 21 14:38:52 EEST 2015]; root of context hierarchy
+2015-06-21 14:38:52 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [app-context.xml]
+2015-06-21 14:38:53 INFO  PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [app.properties]
+2015-06-21 14:38:53 INFO  DriverManagerDataSource:133 - Loaded JDBC driver: com.mysql.jdbc.Driver
+2015-06-21 14:38:53 INFO  LocalContainerEntityManagerFactoryBean:339 - Building JPA container EntityManagerFactory for persistence unit 'my_unit'
+2015-06-21 14:38:53 INFO  Version:37 - HCANN000001: Hibernate Commons Annotations {4.0.1.Final}
+2015-06-21 14:38:53 INFO  Version:41 - HHH000412: Hibernate Core {4.2.1.Final}
+2015-06-21 14:38:53 INFO  Environment:239 - HHH000206: hibernate.properties not found
+2015-06-21 14:38:53 INFO  Environment:342 - HHH000021: Bytecode provider name : javassist
+2015-06-21 14:38:53 INFO  Ejb3Configuration:528 - HHH000204: Processing PersistenceUnitInfo [
+	name: my_unit
+	...]
+2015-06-21 14:38:54 INFO  ConnectionProviderInitiator:188 - HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+2015-06-21 14:38:56 INFO  Dialect:128 - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2015-06-21 14:38:56 INFO  TransactionFactoryInitiator:73 - HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jdbc.JdbcTransactionFactory
+2015-06-21 14:38:56 INFO  ASTQueryTranslatorFactory:48 - HHH000397: Using ASTQueryTranslatorFactory
+2015-06-21 14:38:56 INFO  SchemaUpdate:182 - HHH000228: Running hbm2ddl schema update
+2015-06-21 14:38:56 INFO  SchemaUpdate:193 - HHH000102: Fetching database metadata
+2015-06-21 14:38:56 INFO  SchemaUpdate:205 - HHH000396: Updating schema
+2015-06-21 14:38:56 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.posts
+2015-06-21 14:38:56 INFO  TableMetadata:66 - HHH000037: Columns: [creationdate, owner_id, id, body, title]
+2015-06-21 14:38:56 INFO  TableMetadata:68 - HHH000108: Foreign keys: [fk_664e18c4212943c396213daa691]
+2015-06-21 14:38:56 INFO  TableMetadata:69 - HHH000126: Indexes: [fk_664e18c4212943c396213daa691, primary]
+2015-06-21 14:38:56 INFO  TableMetadata:65 - HHH000261: Table found: ACP6.users
+2015-06-21 14:38:56 INFO  TableMetadata:66 - HHH000037: Columns: [full_name, pass, posttype, id, email]
+2015-06-21 14:38:56 INFO  TableMetadata:68 - HHH000108: Foreign keys: []
+2015-06-21 14:38:56 INFO  TableMetadata:69 - HHH000126: Indexes: [uk_016b2f138d2846cfbc07763ffb9, primary]
+2015-06-21 14:38:56 INFO  SchemaUpdate:242 - HHH000232: Schema update complete

@@ -12,19 +12,20 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Collection;
 
-@WebServlet(urlPatterns = {"/showUsers"})
+@WebServlet(urlPatterns = {"/showUsers"}, name = "ShowUsersServlet")
 public class ShowUsersServlet extends ContainerServlet {
+
+    public static final String PATH = "/WEB-INF/jsp/user-list.jsp";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         Collection<User> usersList = getContainer().userList();
-        PrintWriter pw = resp.getWriter();
+        req.setAttribute("users",usersList);
 
-        for (User user : usersList) {
-            pw.println(user);
-        }
 
-        pw.close();
+        req.getRequestDispatcher(PATH).forward(req,resp);
+
+
     }
 }

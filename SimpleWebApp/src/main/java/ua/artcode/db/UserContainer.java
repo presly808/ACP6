@@ -2,21 +2,31 @@ package ua.artcode.db;
 
 import ua.artcode.model.User;
 
-import java.util.Collection;
-import java.util.List;
-import java.util.Map;
-import java.util.TreeMap;
+import java.util.*;
 
 /**
  * Created by serhii on 20.06.15.
  */
 public class UserContainer {
 
+    private Map<String, User> keys = new HashMap<>();
     private Map<Long,User> map = new TreeMap<>();
     private long count;
 
     public UserContainer() {
         init();
+    }
+
+    public boolean isLogged(String key){
+        return keys.containsKey(key);
+    }
+
+    public User getUserByKey(String key){
+        return keys.get(key);
+    }
+
+    public void addKeys(String key, User user){
+        keys.put(key,user);
     }
 
     private void init() {
@@ -32,6 +42,10 @@ public class UserContainer {
         user.setId(count);
         map.put(count, user);
         count++;
+    }
+
+    public User getUser(long id){
+        return map.get(id);
     }
 
     public Collection<User> userList(){
