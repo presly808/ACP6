@@ -1,12 +1,11 @@
 package ua.artcode.db;
 
+import org.springframework.util.ConcurrentReferenceHashMap;
 import ua.artcode.model.User;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * Created by serhii on 20.06.15.
- */
 public class UserContainer {
 
     private Map<String, User> keys = new HashMap<>();
@@ -14,6 +13,7 @@ public class UserContainer {
     private long count;
 
     public UserContainer() {
+        map = new ConcurrentHashMap<>();
         init();
     }
 
